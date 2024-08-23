@@ -6,8 +6,8 @@ fun main() {
         * - Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
         * - Imprime el cálculo del área de un polígono de cada tipo.
     */
-    var base: Double = 0.0
-    var altura: Double = 0.0
+    var base: Double
+    var altura: Double
 
     do {
         print("Ingrese el valor de la base:")
@@ -18,12 +18,12 @@ fun main() {
         altura = readln().toDouble()
     } while (altura < 1 || base == altura)
 
-    var areaTriangulo = base * altura / 2
-    println("El area del triangulo es: ${areaTriangulo}")
+    val areaTriangulo = base * altura / 2
+    println("El area del triangulo es: $areaTriangulo")
 
-    var areaCuadrado = base * base
-    println("El area del cuadrado es: ${areaCuadrado}")
+    val areaCuadrado = base * base
+    println("El area del cuadrado es: $areaCuadrado")
 
-    var areaRectangulo = base * altura
-    println("El area del rectangulo es: ${areaRectangulo}")
+    val areaRectangulo = base * altura
+    println("El area del rectangulo es: $areaRectangulo")
 }

@@ -13,7 +13,7 @@ fun main() {
 
     println("Posicion 0: ${a}")
     println("Posicion 1: ${b}")
-    for (i in 2..50){
+    for (i in 2..50) {
         c = a + b
         a = b
         b = c

@@ -13,7 +13,7 @@ fun main() {
                 break
             }
         }
-        if (esPrimo){
+        if (esPrimo) {
             println("El numero ${i} es primo.")
         }
     }
